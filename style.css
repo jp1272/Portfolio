@@ -22,11 +22,12 @@ header {
   color: #555;
   cursor: default;
 }
-.logo span {
+.logo span,
+.contact-section-header span {
   color: #7d2ae8;
 }
 .navigation {
-  margin-left: -300px;
+  margin-left: -200px;
 }
 .navigation a {
   font-size: 1.1em;
@@ -168,7 +169,7 @@ header {
 
 .slider__btn {
   position: absolute;
-  top: 50%;
+  top: 55%;
   z-index: 10;
 
   border: none;
@@ -182,6 +183,10 @@ header {
   cursor: pointer;
 }
 
+.slider__btn:hover {
+  background-color: #555;
+}
+
 .slider__btn--left {
   left: 10%;
   transform: translate(-50%, -50%);
@@ -193,12 +198,12 @@ header {
 }
 
 .review {
-  width: 70rem;
+  width: 60rem;
   position: absolute;
   padding-left: 7rem;
   padding-right: 7rem;
   padding-top: 1rem;
-  background-color: #6c548b;
+  background-color: #7d2ae8;
   border-radius: 3rem;
 }
 
@@ -212,7 +217,7 @@ header {
 .review__text {
   font-size: 1.7rem;
   margin-bottom: 3.5rem;
-  color: #322f36;
+  color: #fff;
 }
 
 .portfolio {
@@ -225,6 +230,7 @@ header {
   text-align: center;
   padding-bottom: 10rem;
   font-size: 3rem;
+  color: #555;
 }
 
 .projects-grid {
@@ -233,7 +239,7 @@ header {
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  gap: 0 15rem;
+  gap: 0 10rem;
   margin: 0 0;
 }
 
@@ -249,7 +255,7 @@ header {
 }
 
 .project__title:first-of-type {
-  border-top: 1px solid #888;
+  border-top: 5px solid #7d2ae8;
 }
 
 ul {
@@ -257,9 +263,10 @@ ul {
 }
 
 .project__title {
-  border-bottom: 1px solid #888;
+  border-bottom: 5px solid #7d2ae8;
   padding: 1.5rem;
   cursor: pointer;
+  color: #555;
 }
 
 .project--number {
@@ -271,7 +278,7 @@ ul {
   left: 15%;
   bottom: 25%;
 
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .project--arrow {
@@ -305,9 +312,11 @@ ul {
 }
 
 .preview img {
-  max-width: 40rem;
-  width: 100%;
+  max-width: 30rem;
+  width: 90%;
   height: 100%;
+  padding: 20px;
+  border: 15px solid #7d2ae8;
 }
 
 /* .logo {
@@ -330,6 +339,7 @@ ul {
 
 .contact-section-header {
   text-align: center;
+  color: #555;
 }
 .contact-section-header h2 {
   font-size: 3rem;
