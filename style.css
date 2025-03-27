@@ -107,7 +107,7 @@ header {
 }
 .content h2 {
   font-size: 3em;
-  animation: big 2s ease;
+  animation: big 4s ease;
 }
 .content h2 span {
   color: #7d2ae8;
@@ -121,7 +121,7 @@ header {
 
 .btn-group {
   position: absolute;
-  animation: slide-right 1s ease;
+  animation: slide-right 3s ease;
 }
 
 .btn-group a {
@@ -152,7 +152,6 @@ header {
 .social-icons {
   position: absolute;
   bottom: 50px;
-  /* animation: slide-in 1s ease forwards; */
 }
 .social-icons a {
   display: inline-block;
@@ -176,17 +175,17 @@ header {
 
 .fa-linkedin-in {
   position: relative;
-  animation: slide-up 1s ease;
+  animation: slide-up 2s ease;
 }
 
 .fa-envelope {
   position: relative;
-  animation: slide-up 2s ease;
+  animation: slide-up 3s ease;
 }
 
 .fa-github {
   position: relative;
-  animation: slide-up 3s ease;
+  animation: slide-up 4s ease;
 }
 
 /* SLIDER */
