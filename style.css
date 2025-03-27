@@ -17,6 +17,34 @@ header {
   align-items: center;
   z-index: 100;
 }
+
+@keyframes slide-up {
+  from {
+    bottom: -80px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+
+@keyframes slide-right {
+  from {
+    left: -100px;
+  }
+  to {
+    left: 100px;
+  }
+}
+
+@keyframes big {
+  from {
+    font-size: 0.5rem;
+  }
+  to {
+    font-size: 3rem;
+  }
+}
+
 .logo {
   font-size: 2em;
   color: #555;
@@ -79,6 +107,7 @@ header {
 }
 .content h2 {
   font-size: 3em;
+  animation: big 2s ease;
 }
 .content h2 span {
   color: #7d2ae8;
@@ -89,6 +118,12 @@ header {
 .content p {
   padding: 10px 0 40px 0;
 }
+
+.btn-group {
+  position: absolute;
+  animation: slide-right 1s ease;
+}
+
 .btn-group a {
   color: #fff;
   text-decoration: none;
@@ -113,9 +148,11 @@ header {
   color: #fff;
   background: #7d2ae8;
 }
+
 .social-icons {
   position: absolute;
   bottom: 50px;
+  /* animation: slide-in 1s ease forwards; */
 }
 .social-icons a {
   display: inline-block;
@@ -135,6 +172,21 @@ header {
 }
 .social-icons a i {
   color: #fff;
+}
+
+.fa-linkedin-in {
+  position: relative;
+  animation: slide-up 1s ease;
+}
+
+.fa-envelope {
+  position: relative;
+  animation: slide-up 2s ease;
+}
+
+.fa-github {
+  position: relative;
+  animation: slide-up 3s ease;
 }
 
 /* SLIDER */
