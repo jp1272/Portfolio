@@ -66,10 +66,12 @@ header {
   width: 50vw;
 }
 .image img {
-  width: 20vw;
+  width: 25vw;
   position: absolute;
-  left: 60rem;
-  top: 15rem;
+  left: 55rem;
+  top: 10rem;
+  padding: 20px;
+  border: 15px solid #7d2ae8;
 }
 .content {
   max-width: 500px;
